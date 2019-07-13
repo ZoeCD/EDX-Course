@@ -49,7 +49,7 @@ public class  BattleShipsGame{
         ArrayList<int[]> computerGuess = new ArrayList<int[]>();
         int compShips = 5;
         int plyrShips = 5;
-        while (compShips > 0 || plyrShips > 5){
+        while (compShips > 0 || plyrShips > 0){
             int playerTurn = playerGuess(oceanGrid, playerGuess);
             switch (playerTurn){
                 case 1: 
